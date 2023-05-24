@@ -55,14 +55,14 @@ body, html {
 }
 .academics-button:hover {
 	background-color: #999;
-	color:white;
+	color: white;
 }
 .extracurriculars-button:hover {
 	background-color: #999;
-	color:white;
+	color: white;
 }
 
 /*Landing text*/
 .landing-text {
-	
+	color: black;
 }
