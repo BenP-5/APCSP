@@ -53,11 +53,16 @@ body, html {
 	cursor: pointer;
 	border-radius: 16px;
 }
-.academics-button:hover{
+.academics-button:hover {
 	background-color: #999;
 	color:white;
 }
-.extracurriculars-button:hover{
+.extracurriculars-button:hover {
 	background-color: #999;
 	color:white;
+}
+
+/*Landing text*/
+.landing-text {
+	
 }
