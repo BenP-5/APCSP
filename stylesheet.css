@@ -26,7 +26,7 @@ body, html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font: Arial;
+	font-family: Helvetica, sans-serif;
 }
 
 /*Header buttons*/
