@@ -1,17 +1,11 @@
 body, html {
-	/*background-color: yellow;*/
 	height: 100%;
 }
 
 /*Header image*/
 .header-image {
-	/*image*/
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("placeholder.jpg");
-
-	/*set height*/
 	height:50%;
-
-	/*position image*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -20,17 +14,18 @@ body, html {
 
 /*Header text*/
 .header-text {
+	font-family: Helvetica, sans-serif;
 	text-align: center;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-family: Helvetica, sans-serif;
 }
 
 /*Header buttons*/
-.academics-button {
+.button {
+	font-family: Helvetica, sans-serif;
 	background-color: #ddd;
 	border: none;
 	color: black;
@@ -42,23 +37,51 @@ body, html {
 	cursor: pointer;
 	border-radius: 16px;
 }
-.extracurriculars-button {
-	background-color: #ddd;
-	border: none;
+
+.button:hover {
+	background-color: #999;
+	color: white;
+}
+
+/*Landing text*/
+.landing-text {
+	font-family: Helvetica, sans-serif;
 	color: black;
-	padding: 10px 20px;
 	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	margin: 4px 2px;
-	cursor: pointer;
-	border-radius: 16px;
 }
-.academics-button:hover{
-	background-color: #999;
-	color:white;
+
+/*Academics Page*/
+.academics {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
 }
-.extracurriculars-button:hover{
-	background-color: #999;
-	color:white;
+
+.img-ac {
+	height:50%;
+	width: 50%;
+}
+
+.writeup-ac {
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	font-family: Helvetica, sans-serif;
+}
+
+/*Extracurriculars page*/
+.extracurriculars {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+.img-ex {
+	height:50%;
+	width: 50%;
+}
+
+.writeup-ec {
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	font-family: Helvetica, sans-serif;
 }
